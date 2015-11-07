@@ -1,156 +1,183 @@
-<!-- 
-Code tumblr themes <3 
--->
 <!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Webpage</title>
+  <title>Das Sound Machine</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,200' rel='stylesheet' type='text/css'>
+ 
+</head>
 <style>
 
 body {
-	background-color: Gainsboro;
-	margin:0px;
-}
-/*
-
-scroll to right: problem :( 
-
-
-
-
-*/
-.nav {
-	background-color:white;
-	height: 50px;
-} /*works if put on top D: */
-
-.butten {
-	float:right; /*in the wrong order*/
-	margin:auto;
-	padding-top:10px;
-	padding-right:15px;
-	font-size:22px;
-	font-family:Open Sans,sans-serif;	
+	font-family:'Titillium Web', sans-serif;
 }
 
-
-.banner {
-	height:600px;
-	background: url(http://i.ytimg.com/vi/_fbkFXj6CDs/maxresdefault.jpg) no-repeat center center fixed;
+.jumbotron {
+	padding: 250px 25px;
+    background-image:url(http://i.huffpost.com/gen/2665674/images/o-LISTENING-TO-HEADPHONES-facebook.jpg);
+    background-position:center;
+    color:white;
 }
 
-.things {
-	background-color:white;
-	height:700px;
-
+.title {
+	padding:40px;
+	margin-top:-30px;
+	background-color:rgba(0,0,0,0.3);
+	color:white!important;
 }
 
-.service {
-	width:160px;
-	height:270px;
-	background-color:#C5E0DC;
-	margin-left:105px;
-	margin-top:40px;
-	display:inline-block;
-	text-align:center;
-	vertical-align:top; /*if not, the div jumps up when text insterted*/
-	padding:24px;
-}
-
-
-.circle {
-	margin-top:100px;
-	padding:10px;
-	background-color:white;
-	border-radius:10px;
-	font-family:Open Sans,sans-serif;
-	font-size:20px;
-}
-
-.about {
-	height:700px;
-	background-color:#ECE5CE;
-	background: url("http://rack.3.mshcdn.com/media/ZgkyMDE0LzA0LzI1L2EwL3N0YXJ0dXB0ZWFtLjliOTFmLmpwZwpwCXRodW1iCTE0Mzh4CmUJanBn/6ce34bf3/cb4/startup-team.jpg");
-	text-align:center;
-}
-
-a {
-	text-decoration: none;
-	transition: color 1s ease;
-	color:#E08E79;
-}
-
-a:hover {
-	color:#C5E0DC;
+h3 {
+	font-size:30px;
+	padding-top:0px;
+	margin-top: 0px;
+	letter-spacing: 10px;
 }
 
 h1 {
-	margin:0px;
-    padding:50px;
-    font-family:Open Sans,sans-serif;
-    font-size:80px;
-    color:Brown;
+	margin-bottom: 0px;
+}
 
+.container-fluid {
+	padding:50px;
 }
 
 p {
-
-    margin:0px;
-    padding:50px;
-    font-family:Open Sans,sans-serif;
-    font-size:34px;
-    color:Brown;
-    background-color:rgba(0,0,0,0.8);
+	font-size:20px;
+	color:grey;
 }
 
-.bigservice {
-	height:260px;
-	background-color: rgba(0,0,0,0.1);
-	margin-top:40px;
-	color:#E08E79;
-	text-align: center;
+.logo {
+	color:grey;
+	font-size: 200px;
 }
 
-.bigservice h2 {
-	margin:0px;
-    padding:20px;
-    font-family:Open Sans,sans-serif;
-    font-size:80px;
-    color:Brown;
-
+.location {
+	padding:30px;
+	text-align:center;
 }
 
-.bigservice h3 {
-	margin:-40px;
-    font-family:Open Sans,sans-serif;
-    font-size:40px;
-    color:#E08E79;
-
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
 }
 
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.portfoliohead {
+	color:black;
+	font-size:50px;
+	padding:20px;
+	margin-top:-10px;
+	margin-bottom:20px;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    display: none;
+  }
+
+}
 </style>
-</head>
 <body>
+<div class="jumbotron text-center">
 
-	<div class="nav" id="home">
-		<span class="butten"><a href="#home">Home</a></span>
-		<span class="butten"><a href="#services">Services</a></span>
-		<span class="butten"><a href="#about">About</a></span>
-	</div>
-	<div class="banner">
-		<h1>Design Studio in Milan.</h1>
-	</div>
-	<div class ="things" id="services">
-	<div class="service"> <span class="circle">HTML</span></div>
-	<div class="service"> <span class="circle">CSS</span></div>
-	<div class="service"> <span class="circle">JQUERY</span></div>
-	<div class="service"><span class="circle">DESIGN</span> </div>
-	<div class="bigservice"><h2>International.</h2><h3>Milan. Paris. New York.</h3></div>
-	</div> 
-	<div class ="about" id="about">
-		<h1>About.</h1>
-		<p>
-			Lorem ipsum
- dolor sit <b>amet</b>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris <b>amet</b> nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in <b>amet</b>reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <b>amet</b> cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		</p>
-	</div>
+<div class="title">
+<h1>Das Sound Machine</h1> 
+<h3>Audiovisual excellence.</h3> 
+</div>
+</div>
+
+<div class="container-fluid ">
+	<div class="row">
+		<div class="col-xs-8">
+<h2>We offer the highest sound quality to our customers.</h2> 	
+<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</div>
+<div class="col-xs-4">
+	<span class="glyphicon glyphicon-headphones logo"></span>
+</div>
+</div>
+</div>
+
+<div class="container-fluid ">
+	<div class="row">
+		<div class="col-xs-4">
+			<span class="glyphicon glyphicon-camera logo"></span>
+		</div>
+		<div class="col-xs-8">
+<h2>Our visual tool selection is unique & unrivalled.</h2> 	
+<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</div>
+</div>
+</div>
+
+<div class="container-fluid" style="background-color:#e0e0e0;">
+  <div class="row text-center">
+  <h2 class="portfoliohead">Technology tailored to your needs.</h2>
+  <div class="col-xs-4">
+    <div class="thumbnail">
+    <img src="http://s1.favim.com/orig/22/beautiful-hipster-music-piano-Favim.com-212688.jpg" class="img-responsive">
+    <p><strong>Handmade & polished.</strong></p>
+    <p>By our professionals</p>
+  </div>
+  </div>
+  <div class="col-xs-4">
+    <div class="thumbnail">
+    <img src="https://d3ui957tjb5bqd.cloudfront.net/images/screenshots/products/10/103/103196/hip_macbook_03-o.jpg?1398500615" class="img-responsive">
+    <p><strong>Technological Support.</strong></p>
+    <p>24/7</p>
+  </div>
+</div>
+  <div class="col-xs-4">
+    <div class="thumbnail">
+    <img src="http://www.steamfeed.com/wp-content/uploads/Phone-Sweater.jpg" class="img-responsive">
+    <p><strong>Customer Service.</strong></p>
+    <p>Warm & dedicated</p>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="container-fluid location">
+<h2>Our offices are located at the heart of New York.</h2>
+</div>
+
+<!-- GOOGLE MAPS FANCY SHIZ -->
+
+<!-- Set height and width with CSS -->
+<div id="googleMap" style="height:400px;width:100%;"></div>
+
+<!-- Add Google Maps -->
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+var myCenter = new google.maps.LatLng(40.703337, -74.014044);
+
+function initialize() {
+var mapProp = {
+center:myCenter,
+zoom:12,
+scrollwheel:false,
+draggable:false,
+mapTypeId:google.maps.MapTypeId.ROADMAP
+};
+
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker = new google.maps.Marker({
+position:myCenter,
+});
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
 </body>
+</html>
