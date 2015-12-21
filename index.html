@@ -17,6 +17,15 @@
 
     .jumbotron {
       padding:100px;
+      background-color:#031634;
+      color:#CDB380;
+      margin:0px;
+    }
+
+    h2 {
+      color:#E8DDCB;
+      font-size:42px;
+      padding-top:20px;
     }
 
     .socials {
@@ -29,13 +38,26 @@
 
     a {
       text-decoration:none;
+      color:#CDB380;
     }
 
+
     .col-sm-4 {
-      background-color:orange;
-      padding-top:40px;
-      padding-bottom:40px;
+      padding-top:60px;
+      padding-bottom:60px;  
+      background-color:#031634;
     }
+
+    .col-sm-4 h4 {
+      color:#CDB380;
+      font-size:24px;
+    }
+
+     .col-sm-4 p {
+      color:#036564;
+      font-size:18px;
+    }
+
 
     .fade {
    opacity: 1;
@@ -47,6 +69,30 @@
    .fade:hover {
       opacity: 0.5;
       }
+
+  .portfolio {
+    background-color:#033649;
+  }
+
+  .socialmedia {
+    background-color:#033649;
+  }
+
+  .socialmedia h2 {
+    color: #CDB380;
+  }
+
+@media (max-width: 1000px) {
+   .col-sm-4 h4 {
+      font-size:18px;
+    }
+     .col-sm-4 p {
+      color:#036564;
+      font-size:12px;
+    }
+
+}
+
   </style>
 </head>
 <body>
@@ -58,15 +104,15 @@
   </div>
 </div>
   
-<div class="container-fluid bg-3 text-center">    
-  <h3>Portfolio</h3><br>
+<div class="container-fluid bg-3 text-center portfolio">    
+  <!--<h2>Portfolio</h2><br>-->
   <div class="row">
 
     <a href="http://vaidap.itch.io/talks-with-my-mom">
     <div class="col-sm-4 fade">
       <h4>Talks With My Mom</h4>
       <p>Featured on Kotaku and VICE.</p>
-      <img src="11.png" class="img-responsive" style="width:100%" alt="Image">
+      <img src="image1.png" class="img-responsive" style="width:100%" alt="Image">
     </div>
   </a>
     
@@ -74,15 +120,15 @@
     <div class="col-sm-4 fade"> 
       <h4>BRR</h4>
       <p>Audio-only experiment.</p>
-      <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <img src="image2.png" class="img-responsive" style="width:100%" alt="Image">
     </div>
   </a>
 
      <a href="vaidap.itch.io/there-is-a-light-that-never-goes-out">
     <div class="col-sm-4 fade"> 
       <h4>There Is A Light That Never Goes Out</h4>
-      <p>Gamejam game featured at Indiecade and on the Scotsman.</p>
-      <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <p>Featured at Indiecade and on the Scotsman.</p>
+      <img src="image3.png" class="img-responsive" style="width:100%" alt="Image">
     </div>
   </a>
   </div>
@@ -93,7 +139,7 @@
     <div class="col-sm-4 fade">
       <h4>Graphic Design Work</h4>
       <p>Projects for practising Illustrator.</p> 
-      <img src="11.png" class="img-responsive" style="width:100%" alt="Image">
+      <img src="image4.png" class="img-responsive" style="width:100%" alt="Image">
     </div>
     </a>
 
@@ -101,23 +147,23 @@
     <div class="col-sm-4 fade"> 
       <h4>One Game A Month</h4>
       <p>Since March 2014 (+20 games)</p>
-      <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <img src="image5.png" class="img-responsive" style="width:100%" alt="Image">
     </div>
   </a>
 
 
-    <a href="#" target="_blank">
+    <a href="https://github.com/vaidap/vaidap.github.io/blob/master/ResumeVP.pdf">
     <div class="col-sm-4 fade"> 
       <h4>CV</h4>
       <p>Last updated December 2015</p>
-      <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <img src="image6.png" class="img-responsive" style="width:100%" alt="Image">
     </div>
   </a>
   </div>
 </div>
 
-<div class="container-fluid text-center">
-<h3>Social Media</h3><br>
+<div class="container-fluid text-center socialmedia">
+<!--<h2>Social Media</h2><br>-->
 
 <!--Social Media table -->
 <div class="row">
@@ -148,9 +194,5 @@
     <div class="col-sm-4 fade">vaidaplankyte@gmail.com</div>
   </a>
 </div>
-<footer class="container-fluid text-center">
-  <p>Footer Text</p>
-</footer>
-
 </body>
 </html>
