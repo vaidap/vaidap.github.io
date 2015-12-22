@@ -7,20 +7,24 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <style> 
 
-    /* Add a gray background color and some padding to the footer */
-    footer {
-    background-color: #f2f2f2;
-      padding: 25px;
-    }
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <style> 
 
     .jumbotron {
       padding:100px;
-      background-color:#031634;
+      background-color:#010a18;
       color:#CDB380;
       margin:0px;
     }
+
+    .jumbotron h1 {
+  font-size: 70px;
+}
+
+.font2 {
+   font-family: 'Open Sans', sans-serif;
+}
 
     h2 {
       color:#E8DDCB;
@@ -29,7 +33,7 @@
     }
 
     .socials {
-      font-size:28px;   
+      font-size:28px;
     }
 
     .socials p {
@@ -67,7 +71,7 @@
    }
 
    .fade:hover {
-      opacity: 0.5;
+      opacity: 0.7;
       }
 
   .portfolio {
@@ -81,6 +85,11 @@
   .socialmedia h2 {
     color: #CDB380;
   }
+
+ /* .footr {
+  background-color:#010a18;
+}*/
+
 
 @media (max-width: 1100px) {
    .col-sm-4 h4 {
@@ -108,20 +117,24 @@
     }
     .socials {
       font-size:28px;
+
     }
 
+  
 }
-
-
-
+@media (max-width: 500px) {
+ .jumbotron h1 {
+  font-size: 55px;
+}
+}
   </style>
 </head>
 <body>
 
 <div class="jumbotron">
-  <div class="container text-center">
+  <div class="container text-center font2">
     <h1>Vaida Plankyte</h1>      
-    <p>18, Edinburgh.</p>
+    <p class="font2">18, Edinburgh.</p>
   </div>
 </div>
   
@@ -131,7 +144,7 @@
     <a href="http://vaidap.itch.io/talks-with-my-mom">
     <div class="col-sm-4 fade">
       <h4>Talks With My Mom</h4>
-      <p>Featured on Kotaku and VICE.</p>
+      <p class="font2">Featured on Kotaku and VICE.</p>
       <img src="image1.png" class="img-responsive" style="width:100%" alt="Image">
     </div>
   </a>
@@ -139,7 +152,7 @@
     <a href="vaidap.itch.io/brr">
     <div class="col-sm-4 fade"> 
       <h4>BRR</h4>
-      <p>Audio-only experiment.</p>
+      <p class="font2">Audio-only experiment.</p>
       <img src="image2.png" class="img-responsive" style="width:100%" alt="Image">
     </div>
   </a>
@@ -147,7 +160,7 @@
      <a href="vaidap.itch.io/there-is-a-light-that-never-goes-out">
     <div class="col-sm-4 fade"> 
       <h4>ThereIsALightThatNeverGoesOut</h4>
-      <p>Featured at Indiecade and on Scotsman.</p>
+      <p class="font2">Featured at Indiecade and on Scotsman.</p>
       <img src="image3.png" class="img-responsive" style="width:100%" alt="Image">
     </div>
   </a>
@@ -158,7 +171,7 @@
     <a href="gallery.html"> 
     <div class="col-sm-4 fade">
       <h4>Graphic Design Work</h4>
-      <p>Illustrator projects.</p> 
+      <p class="font2">Illustrator projects.</p> 
       <img src="image4.png" class="img-responsive" style="width:100%" alt="Image">
     </div>
     </a>
@@ -166,7 +179,7 @@
     <a href="http://www.onegameamonth.com/underskinnyhrt"> 
     <div class="col-sm-4 fade"> 
       <h4>One Game A Month</h4>
-      <p>Since March 2014 (+20 games).</p>
+      <p class="font2">Since March 2014 (+20 games).</p>
       <img src="image5.png" class="img-responsive" style="width:100%" alt="Image">
     </div>
   </a>
@@ -175,7 +188,7 @@
     <a href="https://github.com/vaidap/vaidap.github.io/blob/master/ResumeVP.pdf">
     <div class="col-sm-4 fade"> 
       <h4>CV</h4>
-      <p>Last updated December 2015.</p>
+      <p class="font2">Last updated December 2015.</p>
       <img src="image6.png" class="img-responsive" style="width:100%" alt="Image">
     </div>
   </a>
@@ -214,6 +227,10 @@
   </a>
 </div>
 
+<!--<div class="footr">
+Quote
+</div>-->
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -224,6 +241,8 @@
   ga('send', 'pageview');
 
 </script>
+
+
 
 </body>
 </html>
