@@ -1,292 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Vaida Plankyte</title>
+  <title>WEBSITE</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Vaida Plankyte's Portfolio">
-  <meta name="keywords" content="Portfolio,CV,Video Games,Graphic Design">
+  <meta name="description" content="CURTAIN. WEBSITE: A PLAY BY VAIDA. 2017, EDINBURGH. IT'S RAINING.">
+  <meta name="keywords" content="Portfolio,CV,Video Games,Art,Creativity">
   <meta name="author" content="Vaida Plankyte">
-	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href=".\font-awesome-4.6.3\css\font-awesome.min.css">
-  <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  <script>
-  $(document).ready(function(){
-    $("#hidethis1").hide();
-    $("#hidethis2").hide();
-    $("#hidethis3").hide();
+  <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
 
-   /* $('html').click(function(e) {                    
-   if(!$(e.target).hasClass('nonclick') )
-   {
-      $("#hidethis1").hide();
-    $("#hidethis2").hide();
-    $("#hidethis3").hide();               
-   }
-}); */
-// thank you stack overflow
-  $('html').click(function(evt){    
-       if(evt.target.id == "navbar")
-          return;
-       //For descendants of menu_content being clicked, remove this check if you do not want to put constraint on descendants.
-       if($(evt.target).closest('#navbar').length)
-          return;             
+  <style>
+  	body {
+  		font-family: 'Cutive Mono', monospace;
+  		font-size: 24px;
+  		background-color:#F5F1ED;
+  		color:#2E2E3A;
 
-      //Do processing of click event here for every element except with id menu_content
-      $("#hidethis1").hide(500);
-    $("#hidethis2").hide(500);
-    $("#hidethis3").hide(500);
+  	}
 
-});
+  	.highlight {
+  		background-color:#FFDF64;
+  	}
 
-    $("#hide1").click(function(){
-        $("#hidethis1").show(500);
-        $("#hidethis2").hide(500);
-        $("#hidethis3").hide(500);
-    });
-    $("#hide2").click(function(){
-        $("#hidethis1").hide(500);
-        $("#hidethis2").show(500);
-        $("#hidethis3").hide(500);
-    });
-    $("#hide3").click(function(){
-        $("#hidethis1").hide(500);
-        $("#hidethis2").hide(500);
-        $("#hidethis3").show(500);
-    });
-    $("#name").click(function(){
-        $("#hidethis1").hide(500);
-        $("#hidethis2").hide(500);
-        $("#hidethis3").hide(500);
-    });
+  	.contain {
+  		max-width:800px;
+  		/*background-color: red;*/
+  		/*margin-top: 5%;*/
+  		padding:16px;
+  		padding-top:80px;
+  		padding-bottom:80px;
+  	}
 
-});
-</script>
+  	a {
+  		/*color:#0F0A0A;*/
+  	}
+
+  	.directions {
+      color:#0063bf; 		
+      font-size: 18px;
+  	}
+
+    .acts {
+      color:#e81117;
+      font-size: 20px;
+    }
+
+    .title {
+      color:#0063bf;
+      font-size: 40px;
+    }
+
+    #play {
+      color:#0063bf;
+    }
+
+  	@media (max-width: 640px) {
+
+  body { 
+	font-size: 18px;
+ }
+
+    .directions {
+      font-size: 14px;
+    }
+
+    .acts {
+
+      font-size: 16px;
+    }
+
+    .title {
+
+      font-size: 30px;
+    }
+
+}
+
+  	@media (max-width: 480px) {
+
+  body { 
+	font-size: 14px;
+ }
+
+ .directions {
+      font-size: 12px;
+    }
+
+    .acts {
+      
+      font-size: 12px;
+    }
+
+    .title {
+      color:#0063bf;
+      font-size: 20px;
+    }
+
+
+}
+  </style>
+
 </head>
-<style>
-html { 
-  background: url("bgimg.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  min-height: 100%;
-}
-
-body {
-	font-family: 'Roboto Slab', serif;
-	font-weight:lighter;
-	margin:0px;
-}
-
-
-#navbar {
-background-color:rgba(0,0,0,0.7);
-padding-top:20px;
-padding-bottom:10px;
-position: absolute;
-bottom:0;
-width:100%;
-}
-
-.fade3 {
-   opacity:1;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
-   }
-
-.fade3:hover {
-      opacity:0.8;
-      }
-
-      .fade {
-   opacity: 1;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
-   }
-
-.fade:hover {
-      opacity: 0.4;
-      }
-
-h1, h2, h3, h4 {
-	color:white;
-	padding-left:20px;
-	font-weight: lighter;
-	margin-bottom: 0px;
-}
-
-h1 {
-	letter-spacing: 5px;
-	display:inline;
-	line-height: 40px;
-}
-
-h3 {
-  letter-spacing: 2px;
-}
-
-.link {
-	border:1px solid white;
-	color:white;
-	display:block;
-	margin:0;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;  
-    padding: 20px;
-    line-height: 54px;
-}
-
-li {
-    display: inline;
-    padding: 10px;
-    padding-right:20px;
-    padding-left:20px;
-    margin-right:10px;
-    font-weight: lighter;
-}
-
-.fade2 {
-   border:1px solid white;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
-   }
-
-.fade2:hover {
-  border:1px dashed white;
-  }
-
-.accent {
-  color:#F5CD91;
-}
-
-i {
-	color:white;
-	display: inline;
-	padding-left:5px;
-	padding-right:5px;
-}
-
-a {
-	color:white;
-	text-decoration:none;
-}
-
-a:hover {
-	text-decoration:none;
-}
-
-.fa {
-  padding-left:5px;
-}
-
-#hidethis2 {
-  line-height:18px;
-}
-
-#hidethis3 {
-  padding-right:12px;
-}
-
-#hidethis2 h4 {
-  display: inline-block;
-   padding-right:12px;
-}
-
-#hidethis1 h4 {
- display: inline-block;
- padding-right:12px;
-}
-
-#description {
-padding-right:12px;
-}
-
-@media (max-height: 610px) {
-  #navbar {
-position: absolute;
-top:0;
-bottom: auto;
-min-height: 100vh; 
-}
-
-}
-
-</style>
 <body>
-
-<div id="navbar">
-<a href="#" id="name" class="fade3"><h1>Vaida Plankyte</h1></a>
-<a href="https://twitter.com/underskinnyhrt" class="fade"><i class="fa fa-twitter fa-2x  accent"></i></a>
-<a href="http://vaidap.itch.io/" class="fade"><i class="fa fa-gamepad fa-2x  accent"></i></a>
-<a href="http://vaidacreates.tumblr.com/" class="fade"><i class="fa fa-paint-brush fa-2x  accent"></i></a>
-<a href="https://soundcloud.com/vaidap" class="fade"><i class="fa fa-soundcloud fa-2x  accent"></i></a>
-<a href="https://www.behance.net/vaidaplankyte" class="fade"><i class="fa fa-behance fa-2x  accent"></i></a>
-<a href="https://medium.com/@underskinnyhrt" class="fade"><i class="fa fa-medium fa-2x  accent"></i></a>
-<a href="https://www.linkedin.com/in/vaida-plankyte-878281106" class="fade"><i class="fa fa-linkedin fa-2x  accent"></i></a>
-<a href="mailto:vaidaplankyte@gmail.com" class="fade"><i class="fa fa-envelope fa-2x  accent"></i></a>
-<h4 id="description">Indie game developer. Narrative design. Events &amp; Community. BAFTA nominated.</h4>
-
-<div id="hidethis1">
-<h2 class="accent">Interactive Works</h2>
-
-<h4>This is a selection of my games; the full list can be found on <a href="https://vaidap.itch.io" class="fade accent">itch.io</a>.</h4>
-<h4>I also collect links I find interesting over <a class="accent fade" href="http://vaida.me/Archive/">here, </a> regarding personal games <a class="accent fade" href="https://itch.io/t/10237/personal-games-resource-list">here</a> and mental health in games <a href="https://itch.io/t/11699/mental-health-in-games-resource-list" class="accent fade">here</a>.</h4>
-<h3>Games:</h3>
-<h4><a href="https://vaidap.itch.io/a-survival-game" class="fade"><span class="accent">A Survival Game</span></a>, about fireplaces and expectations</h4>
-<h4><a href="https://vaidap.itch.io/horizon" class="fade"><span class="accent">HORIZON</span></a>, a one-way conversation about what games don't have to be</h4>
-<h4><a href="https://vaidap.itch.io/brr" class="fade"><span class="accent">BRR</span></a>, where you are a robot listening to an old friend</h4>
-<h4><a href="https://vaidap.itch.io/ow" class="fade"><span class="accent">COMPETITIVE CUDDLING SIMULATOR (Ow)</span></a>, which received a <a href="http://ygd.bafta.org/competition/competition-news/2016/ow" class="accent fade">BAFTA YGD nomination</a></h4>
-<h4><a href="https://vaidap.itch.io/there-is-a-light-that-never-goes-out" class="fade"><span class="accent">There is a Light That Never Goes Out</span></a>, anxiety through game mechanics</h4>
-<h3>Interactive Fiction:</h3>
-<h4><a href="https://vaidap.itch.io/we-are-kings" class="fade"><span class="accent">WE ARE KINGS</span></a>, about mental palaces and relationships</h4>
-<h4><a href="https://vaidap.itch.io/august" class="fade"><span class="accent">August</span></a>, about the past and future through objects</h4>
-<h4><a href="https://vaidap.itch.io/wall" class="fade"><span class="accent">Wall</span></a>, 20 years of a person's life through their apartment wall</h4>
-</div>
-
-<div id="hidethis2">
-<h2 class="accent">Speaker &amp; Features</h2>
-<h3>Microtalks:</h3>
-<h4><a href="http://www.slideshare.net/VaidaPlankyte/making-games-empathy-anxiety" class="accent fade">"Making games: Empathy &amp; Anxiety"</a> @Digital Glasgow Meetup 2016 (Glasgow)</h4>
-<h4><a href="http://www.slideshare.net/VaidaPlankyte/one-game-a-month" class="accent fade">"One Game A Month"</a> @SCREENSHAKE 2016 (Antwerp)</h4>
-<h4><a href="http://www.slideshare.net/VaidaPlankyte/i-really-want-to-talk-to-you-but-i-dont-know-how-so-here-have-a-game" class="accent fade">"I Really Want To Talk To You But I Don't Know How So Here, Have A Game"</a> @Indievelopment 2016 (Utrecht), Indie Game Salon (Antwerp)</h4>
-<br/>
-<h3>Features:</h3>
-<h4><span class="accent">Talks With My Mom:</span> <a href="http://www.kotaku.co.uk/2015/09/09/how-games-fail-and-succeed-at-depicting-female-sexuality" class="fade">Kotaku</a>, <a href="http://www.vice.com/en_uk/read/what-video-games-have-to-say-about-the-more-traumatic-side-of-parent-children-relationships-840" class="fade">VICE</a>, <a href="https://gamebias.wordpress.com/2014/04/24/from-an-individual-to-the-universe-talks-with-my-mom/" class="fade">Game Bias</a>, <a href="https://superlevel.de/spiele/random-encounters-talks-with-my-mom/" class="fade">Superlevel</a></h4>
-<h4><span class="accent">There Is A Light That Never Goes Out:</span> <a href="http://www.scotsman.com/news/how-scots-video-games-are-addressing-mental-health-1-3910327" class="fade">The Scotsman</a></h4>
-<h3>Podcasts/Interviews:</h3>
-<a href="http://femhype.com/2016/03/04/blanket-fort-chats-game-making-with-vaida-plankyte/" class="fade"><h4>Blanket Fort Chats</h4></a>
-<a href="http://www.bbc.co.uk/programmes/p049vdgj" class="fade"><h4>Digital Makers (BBC Scotland)</h4></a>
-<a href="http://www.gameenginestart.com/podcast/lets-talk-to-vaida/" class="fade"><h4>Game Engine Start</h4></a>
-<a href="http://gamehour.be/podcasts/listen/111" class="fade"><h4>Gamehour (at ~57mins)</h4></a>
-<h3>Writing:</h3>
-<a href="https://www.microsoft.com/en-gb/developers/articles/week05feb16/make-small-games-learn-a-lot/" class="fade"><h4>Make small games, learn a lot</h4></a>
-<a href="https://www.microsoft.com/en-gb/developers/articles/week05jun16/presence-vr-as-a-tool-for-empathy/" class="fade"><h4>Presence: VR as a tool for empathy</h4></a>
-</div>
-
-<div id="hidethis3">
-<h2 class="accent">About me</h1>
-<h4>I enjoy making <span class="accent">personal games</span> that focus on narration and minimalistic gameplay from my flat in <span class="accent">Edinburgh</span>.</h4>
-<h4>I am interested in <span class="accent">graphic and web design, </span> and I post <span class="accent">music</span> on <a href="https://soundcloud.com/vaidap" class="fade">Soundcloud</a>, sometimes.</h4>
-<h4>I like giving talks about: <span class="accent">mental health in games, mundane stories, empathy, easy-to-use game engines</span>.</h4>
-<h4>I<span class="accent"> enjoy</span> overanalysing character dynamics in TV shows.</h4>
-<h4>You can <span class="accent">contact me </span>through <a href="https://twitter.com/underskinnyhrt" class="fade">twitter</a> or <a href="mailto:vaidaplankyte@gmail.com" class="fade"> email</a>.</h4>
-</div>
-
-
-<ul>
-  <a href="#" id="hide1"><li class="fade2">Interactive Works</li></a>
-  <a href="#" id="hide2"><li class="fade2">Speaker &amp; Features</li></a>
-  <a href="#" id="hide3"><li class="fade2">About me</li></a>  
-  <a href="CV.pdf"><li class="fade2">CV</li></a>
-</ul>
-</div>
+	<div class="container-fluid text-center contain">
+  <p class="directions">CURTAIN</p>
+  <p class="directions">---</p>
+	<p class="title">WEBSITE: A PLAY BY VAIDA</p>
+  <p class="acts" id="play">2017, EDINBURGH. IT'S RAINING.</p>
+	<p class="directions">---</p>
+  <p class="acts">------- ACT ONE: THE ESSENTIALS -------</p>
+	<p class="directions">SCENE ONE: INTRODUCTION</p>
+  <p><span class="highlight">I enjoy making small, personal games that focus on narration and empathy.</span></p>
+	<p class="directions">---</p>
+	<p class="directions">SCENE TWO: INFORMATION</p>
+  <p><a href="CV.pdf">CV</a> / <a href="https://twitter.com/underskinnyhrt">Twitter</a> / <a href="mailto:vaidaplankyte@gmail.com">Email</a></p>
+	<p class="directions">---</p>
+  <p class="acts">------- ACT TWO: THE INTERESTS -------</p>
+	<p class="directions">SCENE ONE: GAMES</p>
+  <p>I took part in One Game A Month for over two years, making <span class="highlight">tiny experiments</span> that I published on <a href="https://vaidap.itch.io/">itch.io</a>, such as:</p>
+  <p><a href="https://vaidap.itch.io/yearly">yearly</a>, about loneliness in early adulthood</p>
+  <p><a href="https://vaidap.itch.io/august">August</a>, about moving to a new flat</p>
+  <p><a href="https://vaidap.itch.io/distance">Distance</a>, where you're just driving</p>
+  <p><a href="https://vaidap.itch.io/horizon">HORIZON</a>, a one-way conversation</p>
+  <p><a href="https://vaidap.itch.io/brr">BRR</a>, where you're listening to an old friend</p>
+	<p class="directions">---</p>
+  <p class="directions">SCENE TWO: COMMUNITY</p>
+  <p>I enjoy <span class="highlight">volunteering</span> and <span class="highlight">organising events</span>: I run <a href="http://gamedevsoc.space/">GameDevSoc</a>, a game development society, and help with <a href="http://hacktheburgh.com/">Hack The Burgh</a>, a student-run hackathon.</p>
+  <p class="directions">---</p>
+  <p class="directions">SCENE THREE: SPEAKING</p>
+  <p>In 2016, I spoke at <span class="highlight">SCREENSHAKE</span> about One Game A Month, and at <span class="highlight">Indievelopment</span> about personal games. I also gave a workshop at <span class="highlight">IndieCade EU</span> about Twine. </p>
+  <p class="directions">---</p>
+  <p class="directions">SCENE FOUR: CREATION</p>
+  <p>I like to write <span class="highlight">music</span>, from lo-fi ukulele strumming to electronic tracks. They're all on <a href="https://soundcloud.com/vaidap">SoundCloud</a>.</p>
+  <p>I  <span class="highlight">take pictures</span> and  <span class="highlight">design logos, posters and flyers</span> which you can find on <a href="https://www.behance.net/vaidaplankyte">Behance</a>.</p>
+  <p>I <span class="highlight">write</span> a bit about games and feelings on <a href="https://medium.com/@underskinnyhrt">Medium</a>, and have a <a href="http://vaidacreates.tumblr.com/">blog</a> I update at least four times a year.</p>
+  <p>I make simple <span class="highlight">one-page websites</span> such as the one you are on right now, <a href="http://vaida.me/Archive/">Archive</a>, <a href="http://gamedevsoc.space/">GameDevSoc</a>, and <a href="http://vaida.me/flwr/">my old portfolio</a>.</p>
+  <p></p>
+  <p class="directions">---</p>
+  <p class="acts">------- ACT THREE: THE FUTURE -------</p>
+  <p class="directions">SCENE ONE: PROJECTS</p>
+  <p>I am currently working on <span class="highlight">a game about recovery and winter</span> called Blanket.</p> 
+  <p class="directions">---</p>
+  <p class="directions">SCENE TWO: EMPLOYMENT</p>
+  <p>I am available for short-term <span class="highlight">contract work</span> and <span class="highlight">summer internships</span>.</p> 
+  <p class="directions">---</p>
+  <p class="acts" id="play">2017, EDINBURGH, A BIT LATER. IT'S STILL RAINING.</p>
+  <p class="directions">---</p>
+	<p class="directions">CURTAIN</p>
+	</div>
 </body>
 </html>
