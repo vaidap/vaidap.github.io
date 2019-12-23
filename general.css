@@ -1,0 +1,211 @@
+html {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+body {
+  font-family: "Cutive Mono", Arial, serif;
+  color: #000060;
+}
+
+a {
+  text-decoration: none;
+  color: #000060;
+}
+
+.head {
+  max-width: 700px;
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  padding: 40px;
+  text-align: center;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+select {
+  font-family: "Cutive Mono", Arial, serif;
+  font-size: 36px;
+}
+
+select:hover, select:focus,
+select:active, select:visited {
+  border: 1px solid #ffff66;
+}
+
+.project-list {
+  max-width: 2000px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.project {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 10px;
+  margin-right: 25px;
+  padding: 20px;
+  padding-right: 0px;
+  border-radius: 10px;
+}
+
+.project img {
+  float: left;
+  max-width: 200px;
+}
+
+.project:hover img {
+  opacity: 0.6;
+  -webkit-transition: opacity 700ms ease-out;
+  -moz-transition: opacity 700ms ease-out;
+  -o-transition: opacity 700ms ease-out;
+  transition: opacity 700ms ease-out;
+}
+
+.project h3 {
+  display: inline-block;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  border-top: 1px solid #000060;
+  border-bottom: 1px solid #000060;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'IM Fell French Canon SC', serif;
+}
+
+.project .description {
+  max-width: 200px;
+  margin-left: 210px;
+  text-align: left;
+}
+
+.exhibit {
+  max-width: 600px;
+  margin: auto;
+  margin-top: -60px;
+  padding: 20px;
+  text-align: center;
+}
+
+.exhibit h2 {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  font-weight: 500;
+  font-size: 32px;
+  text-decoration: underline;
+}
+
+.exhibit img {
+  max-width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.exhibit .meta-data-bold {
+  text-decoration: underline;
+}
+
+.exhibit .back {
+  font-size: 24px;
+}
+
+
+.internal-link:hover {
+  text-decoration: underline;
+}
+
+.exhibit .meta-data, .exhibit .summary {
+  font-size: 18px;
+}
+
+.exhibit .meta-data {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.exhibit .summary {
+  text-align: justify;
+}
+
+
+.contact {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.contact-top {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.contact-bottom {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.contact a.external-link {
+  background-color: #ffff66;
+  text-decoration: none;
+  color: #000060;
+}
+
+.contact a.external-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+  .head, select {
+    font-size: 32px;
+  }
+
+  .contact {
+    font-size: 22px;
+  }
+
+  .contact .new-line {
+    display: block;
+  }
+
+  .project {
+    margin-right: 0px;
+  }
+
+  .project img {
+    max-width: 150px;
+  }
+
+  .project .description {
+    margin-left: 160px;
+  }
+
+  .project h3 {
+    font-size: 20px;
+  }
+
+  .project img {
+    float: none;
+    width: 100%;
+    max-width: 340px;
+  }
+
+  .project .description {
+    margin-left: 0px;
+    width: 100%;
+    max-width: 340px;
+  }
+
+  .project h3 {
+    margin-top: 25px;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
