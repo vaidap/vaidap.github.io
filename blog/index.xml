@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Vaida&#39;s Website</title>
+    <link>/blog/</link>
+    <description>Recent content in Blog on Vaida&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-GB</language>
+    <lastBuildDate>Sun, 19 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello, World</title>
+      <link>/blog/hello_world/</link>
+      <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/hello_world/</guid>
+      <description>This is going to be the first post published on this new iteration of my website. Fun fact, I had initially thought I&amp;rsquo;d be using Pika for my new homepage, and I&amp;rsquo;d recommend checking it out if you want a no-friction blogging tool! However, if I was going to start writing more, I wanted to do so with complete control of where my content was hosted and how it was rendered&amp;ndash; which meant going all-in on using Hugo (with the lovely Hugo ʕ•ᴥ•ʔ Bear Blog theme, which is inspired by another minimalist indie blogging platform, Bear Blog).</description>
+    </item>
+    
+  </channel>
+</rss>
