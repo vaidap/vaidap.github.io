@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>Vaida Plankytė</title>
+  <subtitle>Designer in Edinburgh, Scotland</subtitle>
+  <link href="https://vaida.me/feed.xml" rel="self" />
+  <link href="https://vaida.me/" />
+  <updated>2025-06-07T00:00:00Z</updated>
+  <id>https://vaida.me/</id>
+  <author>
+    <name>Vaida Plankytė</name>
+  </author>
+  <entry>
+    <title>ECGx 2025</title>
+    <link href="https://vaida.me/blog/2025-06-07-post-2/" />
+    <updated>2025-06-07T00:00:00Z</updated>
+    <id>https://vaida.me/blog/2025-06-07-post-2/</id>
+    <content type="html">&lt;p&gt;I&#39;m gonna write this up soon!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>test 1</title>
+    <link href="https://vaida.me/blog/2025-05-03-post-1/" />
+    <updated>2025-05-03T00:00:00Z</updated>
+    <id>https://vaida.me/blog/2025-05-03-post-1/</id>
+    <content type="html">&lt;p&gt;This is just a test post.&lt;/p&gt;
+</content>
+  </entry>
+</feed>

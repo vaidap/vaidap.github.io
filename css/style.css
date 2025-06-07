@@ -1,0 +1,121 @@
+@font-face {
+	font-family: Fanwood;
+	src: url('fonts/fanwood-webfont.woff') format('woff');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Fanwood Italic;
+	src: url('fonts/fanwood_italic-webfont.woff') format('woff');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Fanwood Text;
+	src: url('fonts/fanwood_text-webfont.woff') format('woff');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Fanwood Text Italic;
+	src: url('fonts/fanwood_text_italic-webfont.woff') format('woff');
+	font-display: swap;
+}
+
+header {
+	margin-top: 0.8em;
+	font-size: 1.6em;
+}
+
+nav {
+	float: right;
+}
+
+nav a {
+	padding-left: 15px;
+}
+
+body {
+	margin: 0 auto;
+	padding: 0em 3em;
+	max-width: 44em;
+	background-color: #fdf6e3;
+	color: #657b83;
+	font-family: Fanwood Text;
+}
+
+h1, h2 {
+	font-family: Fanwood;
+}
+
+h1 em, h2 em {
+	font-family: Fanwood Italic;
+}
+
+h1 {
+	font-size: 2.8em;
+}
+
+h2 {
+	font-size: 2.2em;
+}
+
+p, ul, ol {
+	font-size: 1.6em;
+	line-height:1.5em;
+	text-align: justify;
+}
+
+li {
+	margin-bottom: 0.4em;
+}
+
+p em {
+	font-family: Fanwood Text Italic;
+}
+
+a {
+	color: #268bd2;
+	text-decoration-thickness: 3px;
+}
+
+blockquote {
+	padding-left: 30px;
+	border-left: 10px solid #cb4b16;
+	font-family: Fanwood Text Italic;
+}
+
+/*img {
+	position: relative;
+	width: 50vw;
+	transform: translate(-50%);
+	left: 50%;
+}*/
+
+@media only screen and (max-width: 700px) {
+
+	header {
+	margin-top: 0.6em;
+	font-size: 1.4em;
+	}
+
+	h1 {
+		font-size: 2.4em;
+	}
+
+	h2 {
+		font-size: 1.8em;
+	}
+
+	p, ul, ol {
+		font-size: 1.4em;
+		line-height:1.3em;
+		text-align: justify;
+	}
+
+	li {
+		margin-bottom: 0.4em;
+	}
+
+
+}
