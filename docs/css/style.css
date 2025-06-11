@@ -95,8 +95,12 @@ blockquote {
 @media only screen and (max-width: 700px) {
 
 	header {
-	margin-top: 0.6em;
-	font-size: 1.4em;
+		margin-top: 0.6em;
+		font-size: 1.4em;
+	}
+
+	body {
+		padding: 0em 1.5em;
 	}
 
 	h1 {
@@ -110,7 +114,10 @@ blockquote {
 	p, ul, ol {
 		font-size: 1.4em;
 		line-height:1.3em;
-		text-align: justify;
+	}
+
+	ul, ol {
+		text-align: left;
 	}
 
 	li {

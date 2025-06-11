@@ -4,6 +4,8 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy('css');
 
+  eleventyConfig.addPassthroughCopy("CNAME");
+
   eleventyConfig.addPlugin(feedPlugin, {
     type: "atom",
     outputPath: "/feed.xml",
@@ -24,4 +26,10 @@ module.exports = function(eleventyConfig) {
 
   const toISODate = (date) => new Date(date).toISOString().substring(0,10);
   eleventyConfig.addFilter('toISODate', toISODate);
+
+  return {
+    dir: {
+      output: 'docs'
+    }
+  };
 }
