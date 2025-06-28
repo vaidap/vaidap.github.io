@@ -3,6 +3,7 @@ const { feedPlugin } = require("@11ty/eleventy-plugin-rss");
 module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy('css');
+  eleventyConfig.addPassthroughCopy('assets');
 
   eleventyConfig.addPassthroughCopy("CNAME");
 
