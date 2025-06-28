@@ -38,7 +38,7 @@ nav a {
 body {
 	margin: 0 auto;
 	padding: 0em 3em;
-	max-width: 44em;
+	max-width: 46em;
 	background-color: #fdf6e3;
 	color: #657b83;
 	font-family: Fanwood Text;
@@ -61,7 +61,7 @@ h2 {
 }
 
 p, ul, ol {
-	font-size: 1.6em;
+	font-size: 1.5em;
 	line-height:1.5em;
 	text-align: justify;
 }
@@ -85,9 +85,15 @@ blockquote {
 	font-family: Fanwood Text Italic;
 }
 
+img {
+	width: 100%;
+}
+
 /*img {
 	position: relative;
-	width: 50vw;
+	width: 70vw;
+	min-width: 100%;
+	max-width: 1200px;
 	transform: translate(-50%);
 	left: 50%;
 }*/
