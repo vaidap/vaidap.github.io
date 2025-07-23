@@ -1,5 +1,16 @@
 const { feedPlugin } = require("@11ty/eleventy-plugin-rss");
 
+const markdownIt = require('markdown-it')
+const markdownItAttrs = require('markdown-it-attrs')
+
+const markdownItOptions = {
+  html: true,
+  breaks: true,
+  linkify: true
+}
+
+const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs)
+
 module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy('css');
@@ -27,6 +38,8 @@ module.exports = function(eleventyConfig) {
 
   const toISODate = (date) => new Date(date).toISOString().substring(0,10);
   eleventyConfig.addFilter('toISODate', toISODate);
+
+  eleventyConfig.setLibrary('md', markdownLib)
 
   return {
     dir: {
