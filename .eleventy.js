@@ -2,6 +2,7 @@ const { feedPlugin } = require("@11ty/eleventy-plugin-rss");
 
 const markdownIt = require('markdown-it')
 const markdownItAttrs = require('markdown-it-attrs')
+const markdownFigCaption = require('markdown-it-image-figures');
 
 const markdownItOptions = {
   html: true,
@@ -9,7 +10,12 @@ const markdownItOptions = {
   linkify: true
 }
 
-const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs)
+const figOptions = {
+    figcaption: "alt"
+};
+
+
+const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs).use(markdownFigCaption, figOptions)
 
 module.exports = function(eleventyConfig) {
 
