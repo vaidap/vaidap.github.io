@@ -23,7 +23,7 @@
 }
 
 header {
-	margin-top: 0.8em;
+	margin: 0.8em 0;
 	font-size: 1.6em;
 }
 
@@ -61,7 +61,7 @@ h2 {
 	font-size: 2.2em;
 }
 
-p, ul, ol {
+p, ul, ol, time {
 	font-size: 1.3em;
 	line-height:1.4em;
 	text-align: justify;
