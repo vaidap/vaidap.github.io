@@ -1,6 +1,10 @@
 ---
 title: "UI/UX Designer on Life Eater"
+date: 2024-04-16
 ---
+
+![Final interface mockup](/assets/life-eater/LE_V3.png){.large}
+
 ## Intro
 
 I was the UI/UX Designer on Strange Scaffold's [Life Eater](https://store.steampowered.com/app/2632930/Life_Eater/), I'll let the Steam blurb speak for itself:
@@ -16,7 +20,6 @@ I started writing this up as a portfolio case study, but I love talking about pr
 I started by gathering interface references of video and audio editing programs that had a timeline component in [PureRef](https://www.pureref.com/), and added screenshots of the existing prototype's UI side-by-side so I could keep in mind the core functionality we wanted to support alongside the visual inspirations.
 
 ![Timeline references and prototype UI](/assets/life-eater/timeline_refs.jpg){.large}
-
 
 I was also looking at point-of-sale systems as references of overwhelming, impersonal interfaces, but it turned out Xalavier is also a fan of the open-source video editor [Shotcut](https://www.shotcut.org/), so we zeroed in on it as a primary visual reference. Notice the rows of cramped, chunky icons; Shotcut is not about fancy gradients or giving text plenty of padding. It's focused on being functional and providing you with all the complex information you require to do your work. That's the vibe we wanted for Life Eater's interface.
 
@@ -113,4 +116,7 @@ And voilà! Thanks so much to Strange Scaffold, the Life Eater team for being lo
 
 There was a really cool moment after release, when I was randomly on YouTube's Trending Games tab (which doesn't exist anymore, RIP), and noticed a Markiplier video that had an awfully familiar thumbnail. I then realised it was his playthrough of Life Eater! A game I worked on, on the YouTube Trending tab (RIP)! I had somehow missed the Strange Scaffold Discord message about this, and it was so nice to encounter the video purely by chance and have the genuine realisation moment of what it was!
 
-If you're interested in Life Eater, check it out [on Steam](https://store.steampowered.com/app/2632930/Life_Eater/), or [watch Markiplier play it](https://www.youtube.com/watch?v=ZBnl8R0ip0g). NME listed it as [one of the best games of 2024 so far](https://www.nme.com/features/the-best-games-of-2024-so-far-3767675)!
+If you're interested in Life Eater:
+* check it out [on Steam](https://store.steampowered.com/app/2632930/Life_Eater/)
+* [watch Markiplier play it](https://www.youtube.com/watch?v=ZBnl8R0ip0g)
+* read the [NME review](https://www.nme.com/reviews/game-reviews/life-eater-review-2-3618058); they've listed Life Eater as [one of the best games of 2024 so far](https://www.nme.com/features/the-best-games-of-2024-so-far-3767675)!

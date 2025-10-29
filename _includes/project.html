@@ -3,8 +3,9 @@ layout: layout.html
 permalink: "portfolio/{{ page.fileSlug }}/"
 ---
 
-<p><a href="/portfolio/">← Back</a></p>
-
 <h1>{{title | default: "Portfolio"}}</h1>
+<time datetime="{{ page.date | toISOYear}}">{{ page.date | toISOYear}}</time>
 
 {{content}}
+
+<p><a href="/portfolio/">← View all projects</a></p>

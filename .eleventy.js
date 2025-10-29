@@ -45,6 +45,9 @@ module.exports = function(eleventyConfig) {
   const toISODate = (date) => new Date(date).toISOString().substring(0,10);
   eleventyConfig.addFilter('toISODate', toISODate);
 
+  const toISOYear = (date) => new Date(date).toISOString().substring(0,4);
+  eleventyConfig.addFilter('toISOYear', toISOYear);
+
   eleventyConfig.setLibrary('md', markdownLib)
 
   return {
