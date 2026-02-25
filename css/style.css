@@ -27,6 +27,12 @@ header {
 	font-size: 1.6em;
 }
 
+footer {
+	margin: 0.8em 0;
+	font-size: 1.3em;
+	line-height:1.4em;
+}
+
 nav {
 	float: right;
 }
@@ -42,6 +48,13 @@ body {
 	background-color: #fdf6e3;
 	color: #657b83;
 	font-family: Fanwood Text;
+	display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+   flex: 1;
 }
 
 h1, h2 {
