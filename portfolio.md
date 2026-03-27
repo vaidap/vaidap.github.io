@@ -3,6 +3,7 @@ layout: layout.html
 ---
 
 # Portfolio
+🚧 Page under construction -- more to be added!
 
 I've freelanced as a video game UI/UX designer for [Strange Scaffold](https://www.strangescaffold.com/) on the following projects:
 
@@ -14,4 +15,4 @@ I've freelanced as a video game UI/UX designer for [Strange Scaffold](https://ww
 
 I've also made a bunch of microgrames, they're on [itch.io](https://vaidap.itch.io/).
 
-🚧 Page under construction -- more to be added!
+I'm available for freelance UI/UX design, game design, and narrative work. Digital and analog games, and projects outside of games, are all welcome!
