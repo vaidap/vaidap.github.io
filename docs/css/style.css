@@ -43,8 +43,8 @@ nav a {
 
 body {
 	margin: 0 auto;
-	padding: 0em 3em;
-	max-width: 40em;
+	padding: 0em 1.5em;
+	max-width: 46em;
 	background-color: #fdf6e3;
 	color: #657b83;
 	font-family: Fanwood Text;
@@ -56,14 +56,18 @@ body {
 
 main {
    flex: 1;
+   background-color: #fffef6;
+   padding: 4em;
+   border-radius: 10px;
+   box-shadow: 0 0 10px #6f6d641a;
 }
 
-h1, h2 {
+h1, h2, h3 {
 	font-family: Fanwood;
 	margin: 0px;
 }
 
-h1 em, h2 em {
+h1 em, h2 em, h3 em {
 	font-family: Fanwood Italic;
 }
 
@@ -75,9 +79,13 @@ h2 {
 	font-size: 2.2em;
 }
 
+h3 {
+	font-size: 1.8em;
+}
+
 p, ul, ol, time {
 	font-size: 1.3em;
-	line-height:1.4em;
+	line-height:1.5;
 	text-align: justify;
 }
 
@@ -105,6 +113,7 @@ img {
 }
 
 figcaption {
+	font-family: monospace;
 	font-size: 1.1em;
 	line-height: 1.2em;
 	padding-top: 2px;
@@ -118,6 +127,18 @@ figcaption {
 	max-width: 1400px;
 	transform: translate(-50%);
 	left: 50%;
+	border: 15px solid #fffef6;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #6f6d641a;
+}
+
+@media only screen and (max-width: 1145px) {
+
+	.large {
+		border: none;
+		border-radius: 0;
+		box-shadow: none;
+	}
 }
 
 @media only screen and (max-width: 700px) {
@@ -128,7 +149,11 @@ figcaption {
 	}
 
 	body {
-		padding: 0em 1.5em;
+		padding: 0em 0.5em;
+	}
+
+	main {
+		padding: 1.5em;
 	}
 
 	h1 {
@@ -140,8 +165,7 @@ figcaption {
 	}
 
 	p, ul, ol {
-		font-size: 1.4em;
-		line-height:1.3em;
+		font-size: 1em;
 	}
 
 	ul, ol {
@@ -152,5 +176,12 @@ figcaption {
 		margin-bottom: 0.4em;
 	}
 
+	blockquote {
+		margin-left: 20px;
+	}
+
+	figure {
+		margin: 10px;
+	}
 
 }
