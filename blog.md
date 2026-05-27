@@ -6,6 +6,7 @@ layout: layout.html
 
 Also available as an [RSS feed](/feed.xml)!
 
-{% for blog in collections.blog %}
-<p>{{ blog.date | toISODate }} <a href="{{ blog.url }}">{{ blog.data.title }}</a></p>
+{% assign newest_first = collections.blog | reverse %}
+{% for blog in newest_first %}
+<p>{{ blog.date | toISODate }} — <a href="{{ blog.url }}">{{ blog.data.title }}</a></p>
 {% endfor %}
