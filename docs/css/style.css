@@ -132,6 +132,16 @@ figcaption {
 	box-shadow: 0 0 10px #6f6d641a;
 }
 
+.webbuttons {
+	float: right;
+	margin-top: 5px;
+}
+.webbuttons img {
+	image-rendering: pixelated;
+	width: 88px;
+	height: 31px;
+}
+
 @media only screen and (max-width: 1145px) {
 
 	.large {
