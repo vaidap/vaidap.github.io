@@ -8,7 +8,7 @@ Hi! I'm Vaida, a designer based in Edinburgh, Scotland. On this website, you can
 
 ## Latest posts
 
-{% assign newest_first = collections.blog | slice: 0, 3 | reverse %}
+{% assign newest_first = collections.blog | reverse | slice: 0, 5 %}
 {% for blog in newest_first %}
 <p>{{ blog.date | toISODate }} — <a href="{{ blog.url }}">{{ blog.data.title }}</a></p>
 {% endfor %}
